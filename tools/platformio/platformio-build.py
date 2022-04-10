@@ -125,7 +125,7 @@ env.Append(
     ASFLAGS=["-x", "assembler-with-cpp"],
     CFLAGS=["-std=gnu99"],
     CXXFLAGS=[
-        "-std=gnu++11",
+        "-std=gnu++17",
         "-fno-use-cxa-atexit", 
         "-nostdlib", 
         "-Wpointer-arith", 
